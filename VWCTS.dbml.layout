@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 15.625" name="VWCTS">
+  <DataContextMoniker Name="/VWCTSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="dd66f9df-4aee-489b-b0ce-bc8ba51b7f21" absoluteBounds="6.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/VWCTSDataContext/Trim" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6746076e-9064-49b4-a615-642dcb0e6170" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="31dc7ea4-47bd-43e6-adcf-29b56439cf88" absoluteBounds="0.75, 8.875, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/VWCTSDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68d5dde5-ce68-437a-aee5-24d98ccaa4d0" absoluteBounds="0.765, 9.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0acab13d-c12a-4b39-822d-97164c9dba98" absoluteBounds="0.75, 12.25, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/VWCTSDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b7acce5-117e-4b86-abf1-659b0c958bc0" absoluteBounds="0.76500000000000012, 12.71, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c30dcf73-0f56-4b6b-b231-43e0146e9158" absoluteBounds="0.75, 0.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/VWCTSDataContext/Optional_Package" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc5d698f-826b-4b20-a30a-6dfdb2bcb635" absoluteBounds="0.765, 1.2100000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e93c765-cecb-49ba-a9ee-d11f373d9367" absoluteBounds="3.5, 12.625, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/VWCTSDataContext/Photo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="419602a1-77f9-4588-8921-530e95516361" absoluteBounds="3.515, 13.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f97fd921-09db-4a81-9400-254fff3ec242" absoluteBounds="3.5, 1.375, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/VWCTSDataContext/Transaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35fdadda-5aa9-4b35-9b6e-5d4b4b1634f0" absoluteBounds="3.5149999999999997, 1.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 9.57414651302083); (3.25 : 9.57414651302083); (3.25 : 7.2420068359375); (4.5 : 7.2420068359375); (4.5 : 3.9151025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Customer/Customer_Transaction" />
+      <nodes>
+        <classShapeMoniker Id="31dc7ea4-47bd-43e6-adcf-29b56439cf88" />
+        <classShapeMoniker Id="f97fd921-09db-4a81-9400-254fff3ec242" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 13.8085034179688); (3 : 13.8085034179688); (3 : 7.4920068359375); (3.16666666666667 : 7.4920068359375 : JumpStart); (3.33333333333333 : 7.4920068359375 : JumpEnd); (3.968748 : 7.4920068359375); (3.968748 : 3.9151025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Employee/Employee_Transaction" />
+      <nodes>
+        <classShapeMoniker Id="0acab13d-c12a-4b39-822d-97164c9dba98" />
+        <classShapeMoniker Id="f97fd921-09db-4a81-9400-254fff3ec242" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="07ab4bbe-8de6-4360-87ce-43fac8b793c3" absoluteBounds="3.5, 8, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/VWCTSDataContext/Car_Option" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ae602db0-da53-4277-807b-7e319db0f29b" absoluteBounds="3.5149999999999997, 8.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.63544840494792); (3.4375 : 1.63544840494792); (3.4375 : 3.9776025390625); (4.9999995 : 3.9776025390625); (4.9999995 : 8)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Optional_Package/Optional_Package_Car_Option" />
+      <nodes>
+        <classShapeMoniker Id="c30dcf73-0f56-4b6b-b231-43e0146e9158" />
+        <classShapeMoniker Id="07ab4bbe-8de6-4360-87ce-43fac8b793c3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dc574bc0-c2a7-4dc6-9050-51ce16a09d52" absoluteBounds="1.375, 3.875, 2, 3.1170068359375">
+      <DataClassMoniker Name="/VWCTSDataContext/Car" />
+      <nestedChildShapes>
+        <elementListCompartment Id="212e08a1-1732-4cf4-a6bf-d567840b0759" absoluteBounds="1.3900000000000001, 4.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.1875005 : 6.9920068359375); (2.1875005 : 8.625); (3.125 : 8.625); (3.125 : 13.2167522089844); (3.5 : 13.2167522089844)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Car/Car_Photo" />
+      <nodes>
+        <classShapeMoniker Id="dc574bc0-c2a7-4dc6-9050-51ce16a09d52" />
+        <classShapeMoniker Id="3e93c765-cecb-49ba-a9ee-d11f373d9367" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.375 : 3.875); (2.375 : 3.5); (3.125 : 3.5); (3.125 : 2.75522320247396); (3.5 : 2.75522320247396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Car/Car_Transaction" />
+      <nodes>
+        <classShapeMoniker Id="dc574bc0-c2a7-4dc6-9050-51ce16a09d52" />
+        <classShapeMoniker Id="f97fd921-09db-4a81-9400-254fff3ec242" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.90625 : 6.9920068359375); (2.90625 : 8.26724562825521); (3.5 : 8.26724562825521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Car/Car_Car_Option" />
+      <nodes>
+        <classShapeMoniker Id="dc574bc0-c2a7-4dc6-9050-51ce16a09d52" />
+        <classShapeMoniker Id="07ab4bbe-8de6-4360-87ce-43fac8b793c3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a856c370-d37d-47a4-91d0-f2f39e540cf6" absoluteBounds="6, 6.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/VWCTSDataContext/History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="53abc494-bc86-4345-810a-ad3c02f24442" absoluteBounds="6.015, 6.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.375 : 6.62100341796875); (4.41666666666667 : 6.62100341796875 : JumpStart); (4.58333333333333 : 6.62100341796875 : JumpEnd); (4.91666616666667 : 6.62100341796875 : JumpStart); (5.08333283333333 : 6.62100341796875 : JumpEnd); (6 : 6.62100341796875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Car/Car_History" />
+      <nodes>
+        <classShapeMoniker Id="dc574bc0-c2a7-4dc6-9050-51ce16a09d52" />
+        <classShapeMoniker Id="a856c370-d37d-47a4-91d0-f2f39e540cf6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.03125 : 8.875); (1.03125 : 7.71475341796875); (2.82291666666667 : 7.71475341796875 : JumpStart); (2.98958333333333 : 7.71475341796875 : JumpEnd); (3.16666666666667 : 7.71475341796875 : JumpStart); (3.33333333333333 : 7.71475341796875 : JumpEnd); (4.91666616666667 : 7.71475341796875 : JumpStart); (5.08333283333333 : 7.71475341796875 : JumpEnd); (6 : 7.71475341796875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/VWCTSDataContext/Customer/Customer_History" />
+      <nodes>
+        <classShapeMoniker Id="31dc7ea4-47bd-43e6-adcf-29b56439cf88" />
+        <classShapeMoniker Id="a856c370-d37d-47a4-91d0-f2f39e540cf6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

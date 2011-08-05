@@ -1,0 +1,105 @@
+
+    * Car*
+
+          o Car ID / Stock #
+
+          o Vin
+          o Model
+          o Trim
+          o Exterior (color)
+          o Interior (color)
+          o Transmission
+          o Invoice
+          o List Price
+          o Status
+                + On Lot
+                + Sold
+                + On Order / Awaiting Delivery
+                + Back Order?
+
+  
+
+    * Optional Package
+          o Car ID/Stock #
+          o Vin
+          o Package ID (package ID will associate to Standards/Options DB)
+                + exterior
+                + audio/video
+                + safety
+                + interior
+                + packages
+
+
+    * Photo
+          o Stock #
+          o Vin
+          o Photo
+
+
+    * Standards (static info)
+          o type
+                + compact
+                + sedan
+          o drivetrain
+                + all wheel drive
+                + front wheel drive
+                + rear wheel drive
+          o Model
+          o Trim
+
+
+    * Customer *
+          o Customer ID
+          o First Name
+          o Last Name
+          o Phone Number
+          o Street Number
+          o City
+          o State
+          o Zip Code
+
+ 
+
+    * Employee *
+          o Employee ID
+          o Department / Role
+          o First Name
+          o Last Name
+          o Phone Number
+          o Street Number
+          o City
+          o State
+          o Zip Code
+
+
+    * Stats?
+
+
+    * Transaction?
+          o Transaction ID
+          o Customer ID
+          o Employee ID
+          o Car ID
+          o Date
+          o Down Payment
+          o Amount Financed
+          o Trade?
+          o Sales Price
+
+ 
+
+    * History (after sold)?
+          o Car ID
+          o Customer ID
+          o Type
+                + Initial delivery
+                + Maintenance
+
+-    * indicates complete
+
+-    ? indicates tentative
+
+
+
+
+
